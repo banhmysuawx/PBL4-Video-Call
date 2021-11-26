@@ -1,0 +1,181 @@
+*{
+    box-sizing: inherit;
+    user-select: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 43px;
+}
+
+.navbar-brand{
+    font-size: 27px;
+    padding-left: 10px;
+}
+
+.display-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    padding-left: 10px;
+}
+
+.nav-item a{
+    color: gray !important;
+    font-size: 16px;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.jumbotron{
+    padding-top: 8rem;
+    background-color: #fff;
+}
+
+.signIn-img{
+    height: 400px;
+    border: solid 16px #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.introduce-singIn{
+    font-weight: 400;
+    font-size: 50px;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.join-action{
+    cursor: pointer;
+}
+
+
+/* Index.html */
+
+.home{
+    background-color: rgb(31, 30, 30);
+}
+
+.app-top{
+    height: 90vh; 
+    position: relative;
+}
+
+.video-wrap{
+    height: 600px;
+}
+
+.video-wrap>*{
+    flex: 1 1 250px;
+    border: solid 1px white;
+}
+
+.app-top-left{
+    position: absolute;
+    right: 0;
+    height: 8vh;
+    top: 0;
+    border-bottom-left-radius: 10px;
+}
+
+.top-left-participant-wrap{
+    position: relative;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.cursor-pointer:hover{
+    background-color: #e7e7e7;
+    border-radius: 5px;
+}
+
+.top-left-participant-count{
+    position: absolute;
+    top: -2px;
+    right: -3px;
+    font-size: 16px;
+}
+
+.app-bottom{
+    margin: 0 -10px !important;
+    padding: 0 20px;
+    box-shadow: 0 0 5px black;
+    z-index: 2;
+}
+
+.bottom-left{
+    position: relative;
+    padding: 5px;
+}
+
+.action-icon-style{
+    height: 40px;
+    width: 40px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    font-size: 8px !important;
+}
+
+.end-call-icon{
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+
+.top-remote-video-wrap{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+video{
+    border: 1px solid gray;
+    width: 300px;
+}
+
+.active{
+    background-color: #e5e5e5;
+    border-radius: 4px;
+}
+
+.bottom-left{
+    position: relative;
+    padding: 5px;
+}
+
+.app-details{
+    position: absolute;
+    width: 30vw;
+    background-color: white;
+    margin-top: -135px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.app-details-heading-show{
+    padding-left: 10px;
+}
+
+.record-show{
+    position: absolute;
+    margin-bottom: 112px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 12px;
+    display: none;
+}

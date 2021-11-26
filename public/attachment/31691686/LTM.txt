@@ -1,0 +1,7 @@
+lập trình giao diện
+lập trình vào ra
+đa luồng
+kết nối database
+
+Mô hình OSI-7 tầng
+Bộ giao thức TCP/IP: TCP, UDP, IP, ICMP, ARP, RARP...

@@ -1,0 +1,19 @@
+pop: xóa phần tử cuối cùng trong mảng
+app.use(): chuyển một middle-ware(một hàm định nghĩa chỗ khác, module) sang một intance để sử dụng trong ứng dụng
+FormData: là lớp cho phép tạo ra form động, submit dữ liệu lên server bằng Ajax (dùng trong trường hợp form ko có nút submit)
+e.preventDefault(): chặn submid form, chặn sự kiện mặc định (click, submit...)
+
+Dấu (...) Spread Operator: là toán tử rút gọn code, trong mảng nó có thể nối mảng gọn hơn concat
+ + array: 
+	   var album2 = album2.concat(album1)
+	-> var album2 = ["Sót xa", ...album1];	
+
+
+Ghi video:
+MediaRecorder(stream);
+ -onstop()
+ -start()
+ -stop()
+
+ -ondataavailable: cái này để lưu data vào một mảng chunks, để sau đó sử dụng chunks tạo ra đối 
+tượng blob (var blob = new Blob(chunks, {type: video/webm})) để định dạng dữ liệu bản ghi và làm việc với bản ghi này
