@@ -3,7 +3,7 @@ const fileUpload = require("express-fileupload");
 const path = require("path");
 const fs = require('fs');
 var app = express();
-var server = app.listen(3000, function() {
+var server = app.listen(process.env.PORT || 3000, function() {
     console.log("Listen port 3000");
 });
 
