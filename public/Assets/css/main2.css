@@ -127,7 +127,7 @@ html{
 #input-field{
     border: transparent;
     border-radius: 2px;
-    font-size: 22px;
+    font-size: 18px;
     height: 48px;
     color: #16171b;
     margin-right: 12px;
@@ -137,7 +137,7 @@ html{
 }
 
 .join-action{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color: #f9faff;
     background-color: #376df9;
