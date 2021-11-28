@@ -126,7 +126,7 @@ var AppProcess = (function () {
     async function videoProcess(newVideoState) {
         if (newVideoState == video_states.None) {
             $("#videoCamOnOff").html("<span class='material-icons' style='width: 85%'>videocam_off</span>");
-            $('#btnScreenShareOnOff').html('<span class="material-icons">present_to_all</span><div>Present Now</div>')
+            $('#btnScreenShareOnOff').html('<span class="material-icons">present_to_all</span><div>Trình bày ngay</div>')
             video_st = newVideoState;
             removeVideoStream(rtp_vid_senders);
             return;
@@ -174,11 +174,11 @@ var AppProcess = (function () {
         video_st = newVideoState;
         if (newVideoState == video_states.Camera) {
             $('#videoCamOnOff').html('<span class="material-icons">videocam</span>');
-            $('#btnScreenShareOnOff').html('<span class="material-icons">present_to_all</span><div>Present Now</div>');
+            $('#btnScreenShareOnOff').html('<span class="material-icons">present_to_all</span><div>Trình bày ngay</div>');
         }
         else if (newVideoState == video_states.ScreenShare) {
             $('#videoCamOnOff').html('<span class="material-icons">videocam_off</span>');
-            $('#btnScreenShareOnOff').html('<span class="material-icons text-success">present_to_all</span><div class="text-success">Stop Now</div>')
+            $('#btnScreenShareOnOff').html('<span class="material-icons text-danger">present_to_all</span><div class="text-danger">Dừng trình bày</div>')
         }
 
     }
@@ -504,6 +504,8 @@ var App = (function () {
             $('.app-details').show();
             $('.app-details-heading-detail').addClass('active');
             $('.app-details-heading-attachment').removeClass('active');
+            $('.app-details-heading-show-attchment').hide();
+            $('.app-details-heading-show').show();
         }
     })
 
